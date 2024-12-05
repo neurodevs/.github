@@ -1,6 +1,6 @@
 # Welcome to Neurodevs 🧠🤖👋🏻
 
-Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. My mission is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. Current efforts focus on implementing real-time biosignal processing for neurofeedback applications and more.
+Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. My mission is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. Current efforts focus on implementing real-time biosignal processing.
 
 ## About
 
