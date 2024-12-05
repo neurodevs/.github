@@ -1,6 +1,8 @@
 # Welcome to Neurodevs 🧠🤖👋🏻
 
-Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. The goal is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. Current efforts focus on implementing real-time biosignal processing. The long-term vision is a platform called Personomic, which integrates data from neurophysiological biosignals such as EEG, PPG, ECG, EDA plus genomic, neuroimaging, and other sources.
+Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. The goal is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. 
+
+Current efforts focus on implementing real-time biosignal processing. The long-term vision is a platform called Personomic, which integrates data from neurophysiological biosignals such as EEG, PPG, ECG, EDA plus genomic, neuroimaging, and other sources.
 
 ## About
 
