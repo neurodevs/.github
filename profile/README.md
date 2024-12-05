@@ -1,4 +1,4 @@
-# Neurodevs GitHub Organization
+# Neurodevs
 
 Welcome to the Neurodevs GitHub organization, where I, as a solo developer, create portable, open-source tools for neuroinformatics. This work represents a commitment to developing robust, flexible, and privacy-conscious software that empowers researchers, clinicians, and individuals to analyze and understand complex neuroinformatics data. Much of the current work revolves around implementing real-time biosignal processing.
 
