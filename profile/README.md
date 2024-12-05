@@ -27,6 +27,6 @@ Many Neurodevs projects originated from work conducted under SBIR, STTR, and TAC
 
 I welcome contributions to the Neurodevs ecosystem and consider pull requests on a case-by-case basis. Contributions should adhere to Test-Driven Development (TDD) by the 3 Laws and align with the general conventions established across Neurodevs repositories. If you’re unsure about the fit of your contribution or want to gauge my receptivity, feel free to message me beforehand. I promise I'll respond. I'll also answer opened issues and am otherwise happy to help.
 
-I am always open to collaboration! Whether you’re interested in contributing code, sharing ideas, or exploring potential partnerships, you can reach out to me on Bluesky at @ericthecurious or email me directly at hello@ericthecurious.com. I will warn you that I charge a healthy rate for any contract work :)
+Finally, I am always open to collaboration! Whether you’re interested in contributing code, sharing ideas, or exploring potential partnerships, you can reach out to me on Bluesky at @ericthecurious or email me directly at hello@ericthecurious.com. I will warn you that I charge a healthy rate for any contract work :)
 
 Eric
