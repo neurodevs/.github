@@ -4,7 +4,7 @@ Welcome to the Neurodevs GitHub organization, where I, as a solo developer, crea
 
 ## About
 
-Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-platform, portable solutions tailored to the unique demands of neuroinformatics. This technology stack provides the near-universal deployability of JavaScript, while still allowing integration with established tools like Python, MATLAB, R, and Julia. The goal is to deliver solutions that adapt to various platforms, from servers to computers, tablets, phones, watches, and beyond.
+Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-platform, portable solutions tailored to the unique demands of neuroinformatics. This technology stack provides the near-universal deployability of JavaScript, while still allowing integration with established tools in languages like Python, MATLAB, R, and Julia. The goal is to deliver solutions that adapt to various platforms, from servers to computers, tablets, phones, watches, and beyond.
 
 ## Guiding Principles
 
