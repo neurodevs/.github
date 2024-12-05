@@ -8,10 +8,10 @@ Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-plat
 
 ## Guiding Principles
 
-* Craftsmanship: Good code shows care. TDD by the 3 laws, refactoring, design patterns, clean code, and more
-* Portability: Each package runs on virtually any device via Node.js, from desktops to mobile and cloud
-* Privacy First: Emphasis on local data processing ensures user privacy while maintaining compatibility with cloud workflows
-* Interoperability: Solutions are designed to integrate seamlessly with existing neuroinformatics tools and workflows
+* **Craftsmanship**: Good code shows care. TDD by the 3 laws, refactoring, design patterns, clean code, and more
+* **Portability**: Each package runs on virtually any device via Node.js, from desktops to mobile and cloud
+* **Privacy** First: Emphasis on local data processing ensures user privacy while maintaining compatibility with cloud workflows
+* **Interoperability**: Solutions are designed to integrate seamlessly with existing neuroinformatics tools and workflows
 
 ## Personomic
 
