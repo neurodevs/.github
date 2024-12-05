@@ -15,7 +15,7 @@ Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-plat
 
 ## Background
 
-Many Neurodevs projects originated from work conducted under SBIR/STTR/TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in initiatives supporting mindfulness training, sound experiences, and other wellness programs. I have never been directly affiliated with the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source solutions for neuroinformatics, focusing on individual empowerment and applications across diverse fields.
+Many Neurodevs projects originated from work conducted under SBIR/STTR/TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in initiatives supporting mindfulness training, sound experiences, and other wellness programs. I have never been directly affiliated with the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
 
 ## Contributing
 
