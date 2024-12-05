@@ -4,11 +4,11 @@ Welcome to the Neurodevs GitHub organization, where I, as a solo developer, crea
 
 ## About
 
-Neurodevs builds on the flexibility of Node.js and TypeScript to develop cross-platform, portable solutions tailored to the unique demands of neuroinformatics. This technology stack provides the near universal deployability of JavaScript, while still allowing integration with established tools like Python, MATLAB, R, and Julia. The goal is to deliver solutions that adapt to various platforms, from servers to computers, tablets, phones, watches, and beyond.
+Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-platform, portable solutions tailored to the unique demands of neuroinformatics. This technology stack provides the near-universal deployability of JavaScript, while still allowing integration with established tools like Python, MATLAB, R, and Julia. The goal is to deliver solutions that adapt to various platforms, from servers to computers, tablets, phones, watches, and beyond.
 
 ## Guiding Principles
 
-* Craftsmanship: Good code shows care through TDD by the 3 laws, refactoring, design patterns, clean code, and more
+* Craftsmanship: Good code shows care through TDD by the 3 Laws, refactoring, design patterns, clean code, and more
 * Portability: Each package runs on virtually any device via Node.js, from desktops to mobile and cloud
 * Privacy First: Emphasis on local data processing ensures user privacy while maintaining compatibility with cloud workflows
 * Interoperability: Solutions are designed to integrate seamlessly with existing neuroinformatics tools and workflows
@@ -19,6 +19,6 @@ Many Neurodevs projects originated from work conducted under SBIR/STTR/TACFI gra
 
 ## Contributing
 
-I welcome contributions to the Neurodevs ecosystem and consider pull requests on a case-by-case basis. Contributions should adhere to Test-Driven Development (TDD) principles, following the "TDD by the 3 laws" and align with the general conventions established across Neurodevs repositories. If you’re unsure about the fit of your contribution or want to gauge my receptivity, feel free to message me beforehand. I promise I'll respond. 
+I welcome contributions to the Neurodevs ecosystem and consider pull requests on a case-by-case basis. Contributions should adhere to Test-Driven Development (TDD) by the 3 Laws and align with the general conventions established across Neurodevs repositories. If you’re unsure about the fit of your contribution or want to gauge my receptivity, feel free to message me beforehand. I promise I'll respond. 
 
 I, Eric, am always open to collaboration! Whether you’re interested in contributing code, sharing ideas, or exploring potential partnerships, you can reach out to me on Bluesky at @ericthecurious or email me directly at hello@ericthecurious.com.
