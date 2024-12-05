@@ -1,6 +1,6 @@
 # Welcome to Neurodevs 🧠🤖👋🏻
 
-Welcome to Neurodevs, where I, as a solo developer, create portable, open-source tools for neuroinformatics. I aim to empower researchers, clinicians, and individuals to gather and analyze complex data to better understand the human nervous system. Much of the current work revolves around implementing real-time biosignal processing.
+Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. The goal is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. Current efforts focus on implementing real-time biosignal processing. The long-term vision is a platform called Personomic, which integrates data from neurophysiological biosignals such as EEG, PPG, ECG, EDA plus genomic, neuroimaging, and other sources.
 
 ## About
 
@@ -12,6 +12,12 @@ Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-plat
 * Portability: Each package runs on virtually any device via Node.js, from desktops to mobile and cloud
 * Privacy First: Emphasis on local data processing ensures user privacy while maintaining compatibility with cloud workflows
 * Interoperability: Solutions are designed to integrate seamlessly with existing neuroinformatics tools and workflows
+
+## Personomic
+
+Personomic represents my vision for individualized, N-of-1 neuroinformatics by integrating diverse data and knowledge sources. Data sources are specific to the individual, encompassing biosignals such as EEG, PPG, ECG, and EDA, along with genomics, neuroimaging, and more. Conversely, knowledge sources are broadly designed to apply to most individuals, specific subpopulations, or universally to all humans. They include neuroanatomical ontologies, structural regions, connectivity patterns associated with certain conditions, and other foundational inputs.
+
+I intend to apply Personomic to investigate my own chronic illness to an unprecedented level of detail, including a particularly unusual and experimentally manipulatable case of right-sided C-tactile allodynia. To the best of my knowledge, no other unilateral case has been described in existing literature. Astonishingly, I can temporarily and reproducibly abolish this condition through vestibular, gustatory, auditory, and visceral interventions. The only location where these distinct sensory modalities converge is in the left insular cortex, and hence I presume it's central to my condition.
 
 ## Background
 
