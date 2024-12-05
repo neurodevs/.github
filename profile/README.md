@@ -15,13 +15,13 @@ Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-plat
 
 ## Personomic
 
-Personomic represents my vision for individualized, N-of-1 neuroinformatics by integrating diverse data and knowledge sources. Data sources are specific to the individual, encompassing biosignals such as EEG, PPG, ECG, and EDA, along with genomics, neuroimaging, and more. Conversely, knowledge sources are broadly designed to apply to most individuals, specific subpopulations, or universally to all humans. They include neuroanatomical ontologies, structural regions, connectivity patterns associated with certain conditions, and other foundational inputs.
+Personomic is my vision for individualized, N-of-1 neuroinformatics platform that integrates diverse data and knowledge sources. Data sources are specific to the individual, encompassing biosignals such as EEG, PPG, ECG, and EDA, along with genomics, neuroimaging, and more. Conversely, knowledge sources are broadly designed to apply to most individuals, specific subpopulations, or universally to all humans. They include neuroanatomical ontologies, structural regions, network connectivity patterns associated with certain conditions, and much more.
 
 I intend to apply Personomic to investigate my own chronic illness to an unprecedented level of detail, including a particularly unusual and experimentally manipulatable case of right-sided C-tactile allodynia. To the best of my knowledge, no other unilateral case has been described in existing literature. Astonishingly, I can temporarily and reproducibly abolish this condition through vestibular, gustatory, auditory, and visceral interventions. The only location where these distinct sensory modalities converge is in the left insular cortex, and hence I presume it's central to my condition.
 
 ## Background
 
-Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in initiatives supporting mindfulness training, sound experiences, and other wellness programs. I have never been directly affiliated with the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
+Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in initiatives supporting mindfulness training, sound experiences, and other wellness programs. I have never directly been part of the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
 
 ## Contributing
 
