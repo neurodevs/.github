@@ -1,3 +1,6 @@
+[![Follow @ericthecurious.bsky.social](https://img.shields.io/badge/follow-@ericthecurious.bsky.social-whitesmoke?style=social&logo=bluesky)](https://bsky.app/profile/ericthecurious.bsky.social)
+[![Contact me hello@ericthecurious.com](https://img.shields.io/badge/contact_me-hello@ericthecurious.com-whitesmoke?style=social&logo=gmail)](https://img.shields.io/badge/contact_me-hello@ericthecurious.com)
+
 # Welcome to Neurodevs 🧠🤖👋🏻
 
 Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. My mission is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. Current efforts focus on implementing real-time biosignal processing.
@@ -23,7 +26,7 @@ I'm thus developing an N-of-1 experimental protocol to measure event-related pot
 
 ## Background
 
-Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in initiatives supporting mindfulness training, sound experiences, and other wellness programs. I have never directly been part of the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
+Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in "mind gyms" supporting mindfulness training, sound experiences, and other wellness programs. I have never directly been part of the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
 
 ## Contributing
 
