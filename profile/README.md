@@ -1,5 +1,5 @@
 [![Follow @ericthecurious.bsky.social](https://img.shields.io/badge/follow-@ericthecurious.bsky.social-whitesmoke?style=social&logo=bluesky)](https://bsky.app/profile/ericthecurious.bsky.social)
-[![Contact me hello@ericthecurious.com](https://img.shields.io/badge/contact_me-hello@ericthecurious.com-whitesmoke?style=social&logo=gmail)](https://img.shields.io/badge/contact_me-hello@ericthecurious.com)
+[![Contact me hello@ericthecurious.com](https://img.shields.io/badge/contact_me-hello@ericthecurious.com-whitesmoke?style=social&logo=gmail)](mailto:hello@ericthecurious.com)
 
 # Welcome to Neurodevs 🧠🤖👋🏻
 
