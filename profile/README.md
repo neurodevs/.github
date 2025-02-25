@@ -26,7 +26,7 @@ I'm thus developing an N-of-1 experimental protocol to measure event-related pot
 
 ## Background
 
-Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on U.S. Air Force bases worldwide in "mind gyms" supporting mindfulness training, sound experiences, and other wellness programs. I have never directly been part of the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
+Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on 20+ U.S. Air Force bases worldwide in "mind gyms" supporting mindfulness training, sound experiences, and other wellness programs. I have never directly been part of the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
 
 ## Contributing
 
