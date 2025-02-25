@@ -34,4 +34,4 @@ I welcome contributions to the Neurodevs ecosystem and consider pull requests on
 
 Finally, I am always open to collaboration! Whether you’re interested in contributing code, sharing ideas, or exploring potential partnerships, you can reach out to me on Bluesky at @ericthecurious or email me directly at hello@ericthecurious.com. I will warn you that I charge a healthy rate for any contract work :)
 
-Eric 💜 🏳️‍🌈
+Eric 💜
