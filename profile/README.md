@@ -1,37 +1,54 @@
 [![Follow @ericthecurious.bsky.social](https://img.shields.io/badge/follow-@ericthecurious.bsky.social-whitesmoke?style=social&logo=bluesky)](https://bsky.app/profile/ericthecurious.bsky.social)
 [![Contact me hello@ericthecurious.com](https://img.shields.io/badge/contact_me-hello@ericthecurious.com-whitesmoke?style=social&logo=gmail)](mailto:hello@ericthecurious.com)
 
-# Welcome to Neurodevs 🧠🤖👋🏻
+# Welcome to Neurodevs 🧠🤖💜👋🏻
 
-Welcome to Neurodevs, where I develop portable, open-source tools for neuroinformatics as a solo developer. My mission is to support researchers, clinicians, and individuals in integrating data across diverse modalities and scales to better understand the human nervous system at an individualized level. Current efforts focus on implementing real-time biosignal processing.
+Neurodevs is an ecosystem of portable, open-source tools for real-time biosignal systems (and a few related domains) with a simple goal: make biosignal systems behave exactly as they say they do. Think boring reliability for real-time biosensors and biosignals.
 
-## About
+The work toward that reliability is ongoing, and major version changes should be expected as the ecosystem matures.
 
-Neurodevs builds on the ubiquity of Node.js and TypeScript to develop cross-platform, portable solutions tailored to the unique demands of neuroinformatics. This technology stack provides the near-universal deployability of JavaScript, while still allowing integration with established tools in languages like Python and C++. The goal is to deliver solutions that adapt to various platforms, from servers to computers, tablets, phones, watches, and beyond.
+## Problem situation
 
-## Guiding Principles
+Neurodevs addresses a recurring problem seen across deployed biosignal systems:
 
-* **Craftsmanship**: Good code shows care. TDD by the 3 laws, refactoring, design patterns, clean code, and more
-* **Portability**: Each package runs on virtually any device via Node.js, from desktops to mobile and cloud
-* **Privacy First**: Emphasis on local data processing ensures user privacy while maintaining compatibility with cloud workflows
-* **Interoperability**: Solutions are designed to integrate seamlessly with existing neuroinformatics tools and workflows
+Reliability most often breaks down at the point of runtime coordination between software and hardware, especially in long-running processes subject to unpredictable real-world conditions. Subtle failures in timing, state, buffering, or lifecycle management can accumulate over time, quietly undermining otherwise sound experiments.
 
-## Personomic
+A closely related problem is that when these systems drift or degrade, it is often difficult to tell what actually happened. Runtime behavior is often either opaque or only observable after the fact, once data has already been recorded or lost. Runtime issues such as timestamp jitter, clock drift, or dropped samples may only surface indirectly, if at all, and usually too late to intervene.
 
-Personomic is my vision for an individualized, N-of-1 neuroinformatics platform that integrates diverse data and knowledge sources. Data sources are specific to the individual, encompassing biosignals such as EEG, PPG, ECG, and EDA, along with genomics, neuroimaging, and more. Conversely, knowledge sources are broadly designed to apply to most individuals, specific subpopulations, or universally to all humans. They include neuroanatomical ontologies, structural regions, and network connectivity associated with certain conditions.
+In practice, these systems may appear to function correctly while gradually deviating from their intended behavior. Data continues to flow, even as timing assumptions are violated or state transitions behave differently than expected. By the time a problem is visible, it is often no longer possible to distinguish between a genuine experimental effect and an artifact introduced by the system itself.
 
-I plan to use Personomic to study my chronic illness and dysautonomia with unprecedented detail, focusing on a unique case of right-sided C-tactile allodynia. Remarkably, this allodynia can be temporarily abolished through vestibular, gustatory, auditory, visceral, and even cognitive interventions. For instance, tilting my head as a vestibular intervention eliminates the allodynia until I return to a vertical position. These sensory modalities converge in the insular cortex, primarily on its left side for the right body.
+While some problems can be corrected during analysis, others result in irrecoverable loss of timing or state information.
 
-I'm thus developing an N-of-1 experimental protocol to measure event-related potentials (ERPs) from EEG during left-sided and right-sided brushing that targets C-tactile fibers. My goal is to use source localization, with a specific focus on the mid and posterior insula, to identify the consistency of response patterns induced by each intervention. This approach could provide evidence for functional localization within the insula, leveraging the rarity of right-sided C-tactile allodynia and its intervention-specific behavior to reveal insights rarely observable in human studies.
+## Approach
+
+Neurodevs addresses these problems through **real-time systems orchestration**.
+
+The guiding approach is to make runtime behavior explicit and observable, so that reliability is demonstrated continuously rather than reconstructed, validated, or inferred after the fact. This emphasis treats timing, state, buffering, and lifecycle behavior as first-class properties of the system rather than incidental implementation details.
+
+The ecosystem is built on Node.js and TypeScript for their strengths in long-running, event-driven, and cross-platform systems. This allows the same code to run consistently across desktops, servers, embedded systems, and constrained environments, while integrating cleanly with native libraries and external tools written in languages such as C++ and Python.
+
+The tools focus on reliability in the data acquisition and transport layers, supporting basic real-time signal processing while delegating heavier analysis to external applications via Lab Streaming Layer (LSL) or WebSockets. Typical workflows include applications written in Python, MATLAB, or C++, running either locally on the same network via LSL or remotely over HTTP(S) via WebSockets.
+
+Wherever possible, this reliability is abstracted into the system itself rather than imposed on its users.
+
+## Entry points and usage
+
+Coming soon...
 
 ## Background
 
-Many Neurodevs projects originated from work conducted under SBIR, STTR, and TACFI grants. Most of these packages have been deployed on 20+ U.S. Air Force bases worldwide in "mind gyms" supporting mindfulness training, sound experiences, and other wellness programs. I have never directly been part of the USAF, instead working with a startup called [Lumena](https://lumenalabs.com/) for the past 5+ years. My aim remains advancing open-source software for neuroinformatics.
+Many Neurodevs projects originated in applied R&D efforts supported by SBIR, STTR, and TACFI grants through my former employer, [Lumena](https://lumenalabs.com). Earlier versions were deployed on more than twenty U.S. Air Force bases worldwide in wellness and mindfulness training contexts, where real-world use hardened the system against failure modes that emerge in long-running biosignal deployments.
+
+Neurodevs continues this lineage now as an independent, open-source ecosystem shaped by lessons learned from repeated deployment, maintenance, and long-term operation.
 
 ## Contributing
 
-I welcome contributions to the Neurodevs ecosystem and consider pull requests on a case-by-case basis. Contributions should adhere to Test-Driven Development (TDD) by the 3 Laws and align with the general conventions established across Neurodevs repositories. If you’re unsure about the fit of your contribution or want to gauge my receptivity, feel free to message me beforehand. I promise I'll respond. I'll also answer opened issues and am otherwise happy to help.
+Contributions are welcome and reviewed carefully. Pull requests must follow test-driven development (TDD) by [the three laws](http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd): 
 
-Finally, I am always open to collaboration! Whether you’re interested in contributing code, sharing ideas, or exploring potential partnerships, you can reach out to me on Bluesky at @ericthecurious or email me directly at hello@ericthecurious.com. I will warn you that I charge a healthy rate for any contract work :)
+1. Do not write production code unless it is to make a failing test pass
+2. Do not write any more of a test than is sufficient to fail
+3. Do not write any more production code than is sufficient to pass the failing test
 
-Eric 💜
+Collaboration beyond code is also welcome. If you are interested in ideas, research directions, or partnerships, you can reach me on Bluesky at [@ericthecurious](https://bsky.app/profile/ericthecurious.bsky.social) or by email at hello@ericthecurious.com.
+
+Contract work is available at a professional rate.
