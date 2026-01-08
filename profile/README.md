@@ -3,7 +3,9 @@
 
 # Welcome to Neurodevs 🧠🤖💜👋🏻
 
-Neurodevs is an ecosystem of portable, open-source tools for real-time biosignal systems (and a few related domains) with a simple goal: make biosignal systems behave exactly as they say they do. Think boring reliability for real-time biosensors and biosignals.
+Neurodevs is an ecosystem of portable, open-source tools for real-time biosignal systems (and a few related domains) with a simple goal: make biosignal systems behave exactly as they say they do. 
+
+Think boring reliability for real-time biosensors and biosignals.
 
 The work toward that reliability is ongoing, and major version changes should be expected as the ecosystem matures.
 
