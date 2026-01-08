@@ -15,9 +15,9 @@ Neurodevs addresses a recurring problem seen across deployed biosignal systems:
 
 Reliability most often breaks down at the point of runtime coordination between software and hardware, especially in long-running processes subject to unpredictable real-world conditions. Subtle failures in timing, state, buffering, or lifecycle management can accumulate over time, quietly undermining otherwise sound experiments.
 
-A closely related problem is that when these systems drift or degrade, it is often difficult to tell what actually happened. Runtime behavior is often either opaque or only observable after the fact, once data has already been recorded or lost. Runtime issues such as timestamp jitter, clock drift, or dropped samples may only surface indirectly, if at all, and usually too late to intervene.
+A closely related problem is that when these systems drift or degrade, it's often difficult to tell what actually happened. Runtime behavior is often either opaque or only observable after the fact, once data has already been recorded or lost. Runtime issues such as timestamp jitter, clock drift, or dropped samples may only surface indirectly, if at all, and usually too late to intervene.
 
-In practice, these systems may appear to function correctly while gradually deviating from their intended behavior. Data continues to flow, even as timing assumptions are violated or state transitions behave differently than expected. By the time a problem is visible, it is often no longer possible to distinguish between a genuine experimental effect and an artifact introduced by the system itself.
+In practice, these systems may seem to function correctly while gradually deviating from intended behavior. Data continues to flow, even as timing assumptions are broken or state transitions behave differently than expected. By the time a problem is seen, it's often no longer possible to distinguish a genuine experimental effect from an artifact introduced by the system itself.
 
 While some problems can be corrected during analysis, others result in irrecoverable loss of timing or state information.
 
@@ -29,7 +29,7 @@ The guiding approach is to make runtime behavior explicit and observable, so tha
 
 The ecosystem is built on Node.js and TypeScript for their strengths in long-running, event-driven, and cross-platform systems. This allows the same code to run consistently across desktops, servers, embedded systems, and constrained environments, while integrating cleanly with native libraries and external tools written in languages such as C++ and Python.
 
-The tools focus on reliability in the data acquisition and transport layers, supporting basic real-time signal processing while delegating heavier analysis to external applications via Lab Streaming Layer (LSL) or WebSockets. Typical workflows include applications written in Python, MATLAB, or C++, running either locally on the same network via LSL or remotely over HTTP(S) via WebSockets.
+The tools focus on data acquisition and transport layers, supporting basic real-time signal processing while delegating heavier analysis to external applications via Lab Streaming Layer (LSL) or WebSockets. Typical workflows include applications written in Python, MATLAB, or C++, running either locally on the same network via LSL or remotely over HTTP(S) via WebSockets.
 
 Wherever possible, this reliability is abstracted into the system itself rather than imposed on its users.
 
