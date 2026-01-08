@@ -39,7 +39,7 @@ Coming soon...
 
 ## Background
 
-Many Neurodevs projects originated in applied R&D efforts supported by SBIR, STTR, and TACFI grants through my former employer, [Lumena](https://lumenalabs.com). Earlier versions were deployed on more than twenty U.S. Air Force bases worldwide in wellness and mindfulness training contexts, where real-world use hardened the system against failure modes that emerge in long-running biosignal deployments.
+Many Neurodevs projects originated in applied R&D efforts supported by SBIR, STTR, and TACFI grants through my former employer, [Lumena](https://lumenalabs.com). Earlier versions were deployed on more than twenty U.S. Air Force bases worldwide for wellness and mindfulness training applications, where real-world use hardened the system against common failure modes.
 
 Neurodevs continues this lineage now as an independent, open-source ecosystem shaped by lessons learned from repeated deployment, maintenance, and long-term operation.
 
@@ -47,9 +47,9 @@ Neurodevs continues this lineage now as an independent, open-source ecosystem sh
 
 Contributions are welcome and reviewed carefully. Pull requests must follow test-driven development (TDD) by [the three laws](http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd): 
 
-1. Do not write production code unless it is to make a failing test pass
-2. Do not write any more of a test than is sufficient to fail
-3. Do not write any more production code than is sufficient to pass the failing test
+1. Do not write production code unless it is to make a failing test pass.
+2. Do not write any more of a test than is sufficient to fail.
+3. Do not write any more production code than is sufficient to pass the failing test.
 
 Collaboration beyond code is also welcome. If you are interested in ideas, research directions, or partnerships, you can reach me on Bluesky at [@ericthecurious](https://bsky.app/profile/ericthecurious.bsky.social) or by email at hello@ericthecurious.com.
 
