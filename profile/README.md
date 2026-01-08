@@ -39,7 +39,7 @@ Coming soon...
 
 ## Background
 
-Many Neurodevs projects originated in applied R&D efforts supported by SBIR, STTR, and TACFI grants through my former employer, [Lumena](https://lumenalabs.com). Earlier versions were deployed on more than twenty U.S. Air Force bases worldwide for wellness and mindfulness training applications, where real-world use hardened the system against common failure modes.
+Many Neurodevs projects originated in applied R&D projects supported by SBIR, STTR, and TACFI grants through my former employer, [Lumena](https://lumenalabs.com). Earlier versions were deployed on more than twenty U.S. Air Force bases worldwide for wellness and mindfulness training applications, where real-world use hardened the system against common failure modes.
 
 Neurodevs continues this lineage now as an independent, open-source ecosystem shaped by lessons learned from repeated deployment, maintenance, and long-term operation.
 
