@@ -19,6 +19,7 @@ The work toward that reliability is ongoing, and major version changes should be
 - **[`@neurodevs/node-signal-processing`](https://github.com/neurodevs/node-signal-processing)** — Algorithms for digital signal processing
 - **[`@neurodevs/node-biosignal-processing`](https://github.com/neurodevs/node-biosignal-processing)** — Algorithms for domain-specific biosignal processing
 - **[`@neurodevs/ndx-native`](https://github.com/neurodevs/ndx-native)** — Native bindings for LSL, XDF, and LabRecorder C++ libraries
+- **[`libndx`](https://github.com/neurodevs/libndx)** — C++ device acquisition library with LSL-accurate timestamps for BLE and FTDI backends
 
 ### Hardware Orchestration
 
