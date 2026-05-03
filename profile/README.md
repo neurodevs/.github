@@ -9,6 +9,51 @@ Think boring reliability for real-time biosensors and biosignals.
 
 The work toward that reliability is ongoing, and major version changes should be expected as the ecosystem matures.
 
+## Packages
+
+### Biosignals
+
+- **[`@neurodevs/node-lsl`](https://github.com/neurodevs/node-lsl)** — Lab Streaming Layer (LSL) bindings for Node.js
+- **[`@neurodevs/node-xdf`](https://github.com/neurodevs/node-xdf)** — XDF file format support for multi-modal time-series data
+- **[`@neurodevs/node-neuropype`](https://github.com/neurodevs/node-neuropype)** — Node.js wrapper for the NeuroPype pipeline API
+- **[`@neurodevs/node-signal-processing`](https://github.com/neurodevs/node-signal-processing)** — Algorithms for digital signal processing
+- **[`@neurodevs/node-biosignal-processing`](https://github.com/neurodevs/node-biosignal-processing)** — Algorithms for domain-specific biosignal processing
+- **[`@neurodevs/ndx-native`](https://github.com/neurodevs/ndx-native)** — Native bindings for LSL, XDF, and LabRecorder C++ libraries
+
+### Hardware Orchestration
+
+- **[`@neurodevs/node-biosensors`](https://github.com/neurodevs/node-biosensors)** — Drivers and streaming support for EEG, PPG, and other biosensors
+- **[`@neurodevs/node-ble`](https://github.com/neurodevs/node-ble)** — Connect and stream data from Bluetooth Low Energy (BLE) peripherals
+- **[`@neurodevs/node-robotic-arm`](https://github.com/neurodevs/node-robotic-arm)** — Control the Waveshare RoArm2 robotic arm
+- **[`@neurodevs/node-wifi-connector`](https://github.com/neurodevs/node-wifi-connector)** — Connect to Wi-Fi networks programmatically
+
+### Visualizations
+
+- **[`@neurodevs/node-server-plots`](https://github.com/neurodevs/node-server-plots)** — Server-side plot creation and export for Node.js
+- **[`@neurodevs/react-connectivity-graphs`](https://github.com/neurodevs/react-connectivity-graphs)** — Network connectivity graphs with nodes and edges
+- **[`@neurodevs/react-github-badge`](https://github.com/neurodevs/react-github-badge)** — React badge for GitHub repo and test count display
+
+### Developer Tooling
+
+- **[`@neurodevs/node-tdd`](https://github.com/neurodevs/node-tdd)** — TDD framework and test lifecycle utilities for Node.js
+- **[`@neurodevs/fake-node-core`](https://github.com/neurodevs/fake-node-core)** — Fakes and test doubles for Node.js core modules
+- **[`@neurodevs/generate-id`](https://github.com/neurodevs/generate-id)** — Simple unique identifier generation
+- **[`@neurodevs/node-mangled-names`](https://github.com/neurodevs/node-mangled-names)** — Extract and resolve mangled names from dynamic libraries
+- **[`@neurodevs/node-runtime-monitors`](https://github.com/neurodevs/node-runtime-monitors)** — Runtime behavior monitors for long-running Node.js processes
+- **[`@neurodevs/node-task-queue`](https://github.com/neurodevs/node-task-queue)** — Queue and execute time-ordered tasks with callbacks
+- **[`@neurodevs/node-test-counter`](https://github.com/neurodevs/node-test-counter)** — Count total test cases across repos
+- **[`@neurodevs/meta-node`](https://github.com/neurodevs/meta-node)** — Utilities for maintaining Node.js package ecosystems
+
+### Neurodevs Tooling
+
+- **[`@neurodevs/ndx-cli`](https://github.com/neurodevs/ndx-cli)** — CLI tools for the Neurodevs ecosystem
+- **[`@neurodevs/eslint-config-ndx`](https://github.com/neurodevs/eslint-config-ndx)** — Shared ESLint config for the Neurodevs ecosystem
+- **[`@neurodevs/prettier-config-ndx`](https://github.com/neurodevs/prettier-config-ndx)** — Shared Prettier config for the Neurodevs ecosystem
+
+### Independent Research
+
+- **[`@neurodevs/i-insula`](https://github.com/neurodevs/i-insula)** — N-of-1 protocol for a multi-modal, multi-device biosensor study
+
 ## Problem situation
 
 Neurodevs addresses a recurring problem seen across deployed biosignal systems:
