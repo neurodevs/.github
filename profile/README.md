@@ -79,10 +79,6 @@ The tools focus on data acquisition and transport layers, supporting basic real-
 
 Wherever possible, this reliability is abstracted into the system itself rather than imposed on its users.
 
-## Entry points and usage
-
-Coming soon...
-
 ## Background
 
 Many Neurodevs projects originated in applied R&D projects supported by SBIR, STTR, and TACFI grants through my former employer, [Lumena](https://lumenalabs.com). Earlier versions were deployed on more than twenty U.S. Air Force bases worldwide for wellness and mindfulness training applications, where real-world use hardened the system against common failure modes.
@@ -91,12 +87,10 @@ Neurodevs continues this lineage now as an independent, open-source ecosystem sh
 
 ## Contributing
 
-Contributions are welcome and reviewed carefully. Pull requests must follow test-driven development (TDD) by [the three laws](http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd): 
+Contributions are welcome and reviewed carefully. Pull requests must follow test-driven development (TDD) by the three laws: 
 
 1. Do not write production code unless it is to make a failing test pass.
 2. Do not write any more of a test than is sufficient to fail.
 3. Do not write any more production code than is sufficient to pass the failing test.
 
-Collaboration beyond code is also welcome. If you are interested in ideas, research directions, or partnerships, you can reach me on Bluesky at [@ericthecurious](https://bsky.app/profile/ericthecurious.bsky.social) or by email at hello@ericyates.me.
-
-Contract work is available at a professional rate.
+Collaboration beyond code is also welcome. If you are interested in ideas, research directions, or partnerships, you can reach me on [Bluesky](https://bsky.app/profile/ericthecurious.bsky.social) or by [email](mailto:hello@ericyates.me). Contract work is available at a professional rate.
