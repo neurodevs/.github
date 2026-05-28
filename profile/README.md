@@ -97,6 +97,6 @@ Contributions are welcome and reviewed carefully. Pull requests must follow test
 2. Do not write any more of a test than is sufficient to fail.
 3. Do not write any more production code than is sufficient to pass the failing test.
 
-Collaboration beyond code is also welcome. If you are interested in ideas, research directions, or partnerships, you can reach me on Bluesky at [@ericthecurious](https://bsky.app/profile/ericthecurious.bsky.social) or by email at hello@ericthecurious.com.
+Collaboration beyond code is also welcome. If you are interested in ideas, research directions, or partnerships, you can reach me on Bluesky at [@ericthecurious](https://bsky.app/profile/ericthecurious.bsky.social) or by email at hello@ericyates.me.
 
 Contract work is available at a professional rate.
